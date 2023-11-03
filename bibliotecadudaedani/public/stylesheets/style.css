@@ -1,0 +1,31 @@
+.sidebar-nav {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+h1 {
+  color: rgb(61, 116, 61)
+}
+
+p {
+  font-size: 25px;
+  color:rgb(42, 72, 42)
+}
+
+li {
+  font-size: 18px;
+}
+
+a {
+  color:rgb(42, 72, 42);
+}
+
+a:hover {
+ color:rgb(30, 132, 56);
+}
+
+button.btn.btn-primary {
+  color:rgb(19, 27, 19);
+  background-color: rgb(86, 123, 89);
+}

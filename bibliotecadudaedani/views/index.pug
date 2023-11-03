@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1 Biblioteca DudaeDani 
+  p Bem-vindos a biblioteca da Duda e da Dani!
+
+  h1 Nossos conteúdos
+
+  p A biblioteca tem as seguintes categorias de registros:
+
+  ul
+    li #[strong Livros:] !{book_count}
+    li #[strong Cópias:] !{book_instance_count}
+    li #[strong Cópias Avaliadas:] !{book_instance_available_count}
+    li #[strong Autores:] !{author_count}
+    li #[strong Gêneros:] !{genre_count}
